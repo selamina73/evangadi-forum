@@ -6,6 +6,7 @@ const app = express();
 const mysql = require("mysql");
 const pool = require('./server/config/database');
 
+
 const port = process.env.PORT;
 app.use(cors());
 app.use(express.urlencoded({ extened: true }));
