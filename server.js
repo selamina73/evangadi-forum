@@ -4,7 +4,7 @@ const cors = require("cors");
 const userRouter = require("./server/api/users/user.router")
 const app = express();
 const mysql = require("mysql");
- const pool = require('./server/config/database').pool
+const pool = require('./server/config/database');
 
 const port = process.env.PORT;
 app.use(cors());

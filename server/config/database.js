@@ -1,11 +1,6 @@
 const mysql = require('mysql');
 
 const pool = mysql.createPool({
-    // host:"localhost",
-    // user: "evangadi-forum",
-    // password: "selu2468",
-    // database: "evangadi-forum",
-    // connectionLimit:10
     host: process.env.HOST,
     user: process.env.USER,
     password: process.env.PASS,
